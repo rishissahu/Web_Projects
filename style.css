@@ -1,5 +1,47 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+}
+
+header {
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 10px;
+}
+
+.container {
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+}
+
+.parallex {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+
+}
+
+.background {
+    transform: translateZ(-45px) scale(6);
+
+}
+
+.foreground {
+    transform: translateZ(-20px) scale(3);
+}
+
+.heading-adv {
+    position: absolute;
+    top: 5rem;
+    font-size: 10rem;
+    color: white;
+    text-shadow: 0 0 10px rgb(79, 76, 76);
 }
