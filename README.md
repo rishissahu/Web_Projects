@@ -1,4 +1,4 @@
-**Web Projects**
+**<h1>Web Projects</h1>**
 
 This repository contains a collection of small web projects that were created while learning various web development technologies and frameworks.
 
@@ -10,6 +10,7 @@ The parallax effect implementation project is a website design project that show
 This project involves creating an HTML structure for parallax sections, applying CSS styles to position the elements and create the parallax effect.
 
 **Getting Started**
+
 Clone this repository: `git clone https://github.com/rishissahu/Web_Projects.git`
 
 Navigate to the project folder you want to run: cd [project folder]
