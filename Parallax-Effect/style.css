@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Montserrat', 'Courier New', Courier, monospace;
 }
 
 .wrapper {
@@ -24,7 +27,6 @@
     position: absolute;
     height: 100%;
     width: 100%;
-    /* z-index: -1; */
     object-fit: cover;
 }
 
@@ -44,9 +46,53 @@
     text-shadow: 0 0 10px rgb(79, 76, 76);
 }
 
-section{
-    background-color: rgb(79, 76, 76);
+section {
+    background-color: rgb(45, 45, 45);
     color: white;
-    padding: 5rem 3rem;
+    padding: 5rem 0;
 }
 
+.sec-heading {
+    font-size: 5rem;
+    padding: 0 10rem;
+}
+
+.para {
+    padding: 0 10rem;
+    margin: 5rem 0;
+    font-size: 1.5rem;
+}
+
+.bg {
+    position: relative;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+.bg button {
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    color: black;
+    font-weight: 600;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 5px;
+}
+
+.bg1 {
+    background-image: url("assects/sport-1.jpg");
+}
+
+.bg2 {
+    background-image: url("assects/sport-2.jpg");
+}
+
+.bg3 {
+    background-image: url("assects/sport-3.jpg");
+}
