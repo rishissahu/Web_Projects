@@ -9,6 +9,13 @@ The parallax effect implementation project is a website design project that show
 
 This project involves creating an HTML structure for parallax sections, applying CSS styles to position the elements and create the parallax effect.
 
+**<h2>Projects</h2>**
+Project 2: Product Card
+
+The simple product card web project is a small but visually appealing web page that showcases a product using a card design. This project is created using HTML and CSS and can be used as a starting point for creating product pages or e-commerce websites.
+
+The project consists of a single product card that displays an image of the product, a brief description, and a price. The card is designed using a clean and modern layout, with a subtle shadow effect to create a sense of depth. The project also uses responsive design techniques to ensure that the product card is displayed properly on different screen sizes.
+
 **<h2>Getting Started</h2>**
 
 Clone this repository: `git clone https://github.com/rishissahu/Web_Projects.git`
